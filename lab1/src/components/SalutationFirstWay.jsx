@@ -1,4 +1,4 @@
-function Salutation({name, age}) {
+function SalutationFirstWay({name, age}) {
     return(
         <>
             <p>My name is {name}</p>
@@ -7,4 +7,4 @@ function Salutation({name, age}) {
     )
 }
 
-export default Salutation;
+export default SalutationFirstWay;
