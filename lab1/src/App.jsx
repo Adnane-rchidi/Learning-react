@@ -1,5 +1,6 @@
 import './App.css'
 import Button from './event/Button'
+import LoginForm from './event/LoginForm'
 
 function App() {
   return(
@@ -7,6 +8,7 @@ function App() {
       <h1>Hello React!</h1>
       {/* event part */}
       <Button />
+      <LoginForm />
     </>
   ) 
 }
