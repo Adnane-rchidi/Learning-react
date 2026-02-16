@@ -1,16 +1,7 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #1e1f26;
+  color: #f4f4f4;
 }
 
 
@@ -18,7 +9,46 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+}
+
+.usersContainer {
+  background-color: #2a2c36;
+  border-radius: 14px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.usersContainer h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.userCard  {
+  background: linear-gradient(145deg, #323543, #2b2e3a);
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.userCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
+}
+
+.userCard h3 {
+  margin: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.userCard strong {
+  font-size: 14px;
+  color: #a0a3bd;
 }
