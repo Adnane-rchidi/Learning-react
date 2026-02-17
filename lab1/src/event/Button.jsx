@@ -6,7 +6,7 @@ const Button = () => {
     return(
         <>
             <button onClick={handleClick}>
-                Click
+                Submit
             </button>
         </>
     )
