@@ -12,7 +12,7 @@ const Porduct = ({productName, onSelect}) => {
       <button onClick={handleClick}>{productName}</button>
       {/*
         Do not use onClick={onSelect(productName)}
-        because the function will be executed immediately after the page loads
+        because the function will be executed immediately after the page loads.
       */}
     </div>
   )
