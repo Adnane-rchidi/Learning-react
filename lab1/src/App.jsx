@@ -1,10 +1,11 @@
 import './App.css'
+import ProductList from './child-to-parent/ProductList'
 
 
 function App() {
   return(
     <>
-      <h1>Hello React!</h1>
+      <ProductList />
     </>
   ) 
 }
