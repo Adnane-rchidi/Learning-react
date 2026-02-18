@@ -17,3 +17,18 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.btn {
+  width: 200px;
+  height: 100px;
+  background: transparent;
+  color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn:hover{
+  background-color: #3e3e3e;
+}

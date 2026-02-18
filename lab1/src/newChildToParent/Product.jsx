@@ -5,7 +5,7 @@ const Product = ({productName, productPrice, onSelect}) => {
 
   return(
     <>
-      <button onClick={handleClick}>
+      <button className="btn" onClick={handleClick}>
         {productName} & {productPrice}
       </button>
     </>
