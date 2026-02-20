@@ -1,11 +1,10 @@
 import './App.css'
-import ProductList from './newChildToParent/ProductList'
-
+import ShowHide from './state/ShowHide'
 
 function App() {
   return(
     <>
-      <ProductList />
+      <ShowHide />
     </>
   ) 
 }
