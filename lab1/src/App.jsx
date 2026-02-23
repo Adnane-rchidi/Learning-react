@@ -1,12 +1,7 @@
-import './App.css'
-
+import Simple from './style-feature/Simple';
 
 function App() {
-  return(
-    <>
-      <h1>Hello React!</h1>
-    </>
-  ) 
+  return <Simple />;
 }
 
-export default App
+export default App;
