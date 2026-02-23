@@ -1,10 +1,10 @@
 import './App.css'
-import ShowHide from './state/ShowHide'
+import UseActivity from './state/UseActivity'
 
 function App() {
   return(
     <>
-      <ShowHide />
+      <UseActivity />
     </>
   ) 
 }
